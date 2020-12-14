@@ -19,9 +19,9 @@
             <fieldset>
                 <legend> Создание личного кабинета )))) </legend>
                 <label for="name"> Как тебя зовут ?</label>
-                <br>
-                <input type= "text" name= "registration_login" id ="name">
-                <br>
+                <br> 
+                <input type= "text" name= "registration_login" id ="name"> <!-- Нету label для инпута -->
+                <br> <!--Лучше помещай каждый блок (инпут и лейбл) в отдельный div чем использовать тег br -->
                 <label for="email"> а здесь нужно указать твой email  </label>
                 <br>
                 <input type="email" name= "registration_emal" id ="email">
@@ -44,7 +44,7 @@
         
                   <fieldset>
                 <legend> Что ты любишь? </legend>
-                <li><input  type="radio" name="experience" id="exp1" value="< 1"> 
+                <li><input  type="radio" name="experience" id="exp1" value="< 1"> <!- li должны быть в ul -->
                 <label for="exp1"> сладкое </label></li>
                 <li><input  type="radio" name="experience" id="exp2" value=" 1-3"> 
                 <label for="exp2"> соленое </label></li>                             
